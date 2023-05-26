@@ -1,7 +1,7 @@
    <!--webspeak -->
         <!-- speak_on_mousehover-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-        <script>
+
         
         content = document.querySelector('.speak_on_mousehover')
         content.addEventListener('mouseenter',()=>{
@@ -45,5 +45,5 @@
             });
         };
 
-        </script>
+       
         <!--  end  -->
