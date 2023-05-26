@@ -1,7 +1,8 @@
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
         <script>
-            div = document.getElementById('div')
-            // div.addEventListener('click',()=> {send()})
+            speak = document.querySelector('.speak')
+            speak.addEventListener('mouseenter',()=> {send()})
             function send(text) {  
             var jsondata = JSON.stringify({
                 key:'div',
